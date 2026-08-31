@@ -4,7 +4,26 @@
 
 This project involved manual testing of the Urban Scooter mobile application as part of the TripleTen QA Engineering Bootcamp.
 
-The objective was to verify the functionality and usability of the application, identify defects, and document test results.
+The objective was to verify the application's functionality and UI behavior, identify defects, and document test results.
+
+## Testing Scope
+
+The testing covered three main areas:
+
+- Notifications
+- Internet connection failure
+- Layout
+
+A total of 9 test cases were designed and executed.
+
+## Test Results
+
+| Area | Test Cases | Passed | Failed |
+|---|---:|---:|---:|
+| Notifications | 4 | 1 | 3 |
+| Internet Connection Failure | 3 | 3 | 0 |
+| Layout | 2 | 0 | 2 |
+| **Total** | **9** | **4** | **5** |
 
 ## Testing Activities
 
@@ -15,7 +34,8 @@ The objective was to verify the functionality and usability of the application, 
 - Bug identification and reporting
 - Validation of application behavior under different conditions
 - Verification of notifications
-- Testing application behavior when the internet connection is interrupted
+- Testing application behavior when the internet connection is unavailable
+- UI comparison against Figma designs
 
 ## Tools & Technologies
 
@@ -24,12 +44,15 @@ The objective was to verify the functionality and usability of the application, 
 - Jira
 - Google Sheets
 - Android API 31
+- Figma
 
 ## Test Documentation
 
 Test cases were designed and executed using Google Sheets.
 
-Identified defects were documented and reported using Jira, including reproduction steps, expected results, actual results, and supporting evidence.
+Identified defects were documented and reported using Jira.
+
+The repository contains the test cases and screenshots related to the defects identified during testing.
 
 ## Project Deliverables
 
@@ -45,13 +68,13 @@ The Urban Scooter mobile application was tested using an Android emulator config
 ## Key Skills Demonstrated
 
 - Manual software testing
-- Test case design
 - Functional testing
 - UI testing
-- Negative testing
-- Boundary value analysis
+- Positive and negative testing
+- Test case design and execution
 - Bug reporting
 - Test documentation
-- Android application testing
+- Mobile application testing
+- Android Studio
 - Jira
-- Test result analysis
+- Figma
