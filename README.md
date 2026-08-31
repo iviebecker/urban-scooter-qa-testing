@@ -12,7 +12,6 @@ The objective was to verify the functionality and usability of the application, 
 - UI testing
 - Positive and negative testing
 - Test case design and execution
-- Boundary value testing
 - Bug identification and reporting
 - Validation of application behavior under different conditions
 - Verification of notifications
